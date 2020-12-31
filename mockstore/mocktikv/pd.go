@@ -35,6 +35,14 @@ type pdClient struct {
 	cluster *Cluster
 }
 
+func (c *pdClient) ScatterRegions(ctx context.Context, regionsID []uint64, opts ...pd.RegionsOption) (*pdpb.ScatterRegionResponse, error) {
+	panic("implement me")
+}
+
+func (c *pdClient) SplitRegions(ctx context.Context, splitKeys [][]byte, opts ...pd.RegionsOption) (*pdpb.SplitRegionsResponse, error) {
+	panic("implement me")
+}
+
 // NewPDClient creates a mock pd.Client that uses local timestamp and meta data
 // from a Cluster.
 func NewPDClient(cluster *Cluster) pd.Client {
@@ -140,10 +148,6 @@ func (c *pdClient) UpdateServiceGCSafePoint(ctx context.Context, serviceID strin
 }
 
 func (c *pdClient) ScatterRegion(ctx context.Context, regionID uint64) error {
-	panic("unimplemented")
-}
-
-func (c *pdClient) ScatterRegionWithOption(ctx context.Context, regionID uint64, opts ...pd.ScatterRegionOption) error {
 	panic("unimplemented")
 }
 

@@ -14,14 +14,14 @@ require (
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/pingcap/check v0.0.0-20200212061837-5e12011dc712
 	github.com/pingcap/goleveldb v0.0.0-20191226122134-f82aafb29989
-	github.com/pingcap/kvproto v0.0.0-20201104042953-62eb316d5182
+	github.com/pingcap/kvproto v0.0.0-20201113092725-08f2872278eb
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.2.1
 	github.com/prometheus/common v0.9.1
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/stretchr/testify v1.6.1 // indirect
-	github.com/tikv/pd v1.1.0-beta.0.20201113054545-cbbb7946a0d4
+	github.com/tikv/pd v1.1.0-beta.0.20201125070607-d4b90eee0c70
 	go.etcd.io/etcd v3.3.25+incompatible // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.16.0 // indirect
